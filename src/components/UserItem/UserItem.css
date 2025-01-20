@@ -1,0 +1,24 @@
+.user-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #ffffff;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.user-item:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.user-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.user-item p {
+  font-size: 1rem;
+  color: #555;
+}
